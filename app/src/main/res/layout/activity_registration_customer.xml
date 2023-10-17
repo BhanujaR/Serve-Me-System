@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/gradient2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical"
+        android:paddingTop="120dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aldrich"
+            android:paddingBottom="60dp"
+            android:text="Registration"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="44sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/cust_fullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/aldrich"
+            android:hint="Full Name"
+            android:minHeight="48dp"
+            android:textColorHint="@color/white"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/cust_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/aldrich"
+            android:hint="Email"
+            android:minHeight="48dp"
+            android:textColorHint="@color/white"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/cust_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/aldrich"
+            android:hint="Address"
+            android:minHeight="48dp"
+            android:textColorHint="@color/white"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/cust_phno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/aldrich"
+            android:hint="Phone Number"
+            android:minHeight="48dp"
+            android:textColorHint="@color/white"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/cust_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/aldrich"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColorHint="@color/white"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cust_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#FF9800"
+            android:fontFamily="@font/aldrich"
+            android:text="Register"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</RelativeLayout>

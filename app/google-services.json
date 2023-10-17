@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "785325282555",
+    "firebase_url": "https://serve-me-system-92c1e-default-rtdb.firebaseio.com",
+    "project_id": "serve-me-system-92c1e",
+    "storage_bucket": "serve-me-system-92c1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785325282555:android:e253603fa154750db58c5e",
+        "android_client_info": {
+          "package_name": "com.example.servemesystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785325282555-nhre3cht2dhi4sr4oq4r615hkmejgcsb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByk02hpvs96TKddfAsA6wCdYKFZb-wmDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785325282555-nhre3cht2dhi4sr4oq4r615hkmejgcsb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

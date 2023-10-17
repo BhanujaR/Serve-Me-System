@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:paddingBottom="60dp"
+        android:layout_marginTop="160dp"
+        android:text=" Choose a Service"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/cardview_shadow_end_color"
+        app:srcCompat="@drawable/ic_baseline_plumbing" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:paddingBottom="60dp"
+        android:layout_marginTop="350dp"
+        android:text="  Plumbing"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_shadow_end_color"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@drawable/ic_baseline_electrical_services" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:paddingBottom="60dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="250dp"
+        android:text="Electrical"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/cardview_shadow_end_color"
+        app:srcCompat="@drawable/ic_baseline_account_balance_24" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_shadow_end_color"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="250dp"
+        app:srcCompat="@drawable/ic_baseline_beauty" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:paddingBottom="60dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="275dp"
+        android:text="Beauty"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:paddingBottom="60dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="10dp"
+        android:text=" Char.Acc"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_shadow_end_color"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@drawable/ic_baseline_laptop_mac" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="750dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/aldrich"
+        android:paddingBottom="60dp"
+        android:text="  Laptop"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_shadow_end_color"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="250dp"
+        app:srcCompat="@drawable/ic_baseline_cast_for_education_24" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:paddingBottom="60dp"
+        android:layout_marginTop="750dp"
+        android:layout_marginLeft="250dp"
+        android:text="    Tutor"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
